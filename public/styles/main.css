@@ -5,6 +5,11 @@
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,6 +27,15 @@ header {
   order: -1;
   border-bottom: 1px solid rgb(251,205,0);
   background: #030B35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  padding: 20px;
+  background: hsl(230, 89%, 20%);
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 /* .ml-form-embed {
@@ -114,6 +128,7 @@ header {
   /* justify-content: center; */
   align-items: center;
   background: #030B35;
+  padding: 40px;
 }
 #authorInfoSubDiv {
   display: flex;
@@ -132,4 +147,9 @@ header {
   /* padding: 20px; */
   font-size: 140%;
   width: 50%;
+}
+footer {
+  background: hsl(230, 89%, 11%);
+  height: 60px;
+  border-top: 1px solid rgb(251,205,0);
 }
