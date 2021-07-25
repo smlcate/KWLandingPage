@@ -45,6 +45,7 @@ header a {
 #emailListSignUp {
   display: none;
   position:fixed;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   justify-content: center;
@@ -52,7 +53,9 @@ header a {
   background: rgba(0, 0, 0, 0.5);
   margin-top: 0px;
 }
-
+#emailListSignUp a {
+  width:100%;
+}
 .parentDisplays {
   width: 100vw;
   /* height: 100vh; */
@@ -66,7 +69,7 @@ header a {
   /* background-position: center; */
 }
 
-.gradient-text {
+#welcomeDiv h1 {
   background-color: #ABD1FF;
   background-image: linear-gradient(0deg, #ABD1FF, #F4F9F8);
   background-size: 80%;
@@ -93,14 +96,14 @@ header a {
 #welcomeDiv h1 {
   display: flex;
   font-family: Excluded;
-  height: 10px;
-  margin-top: 45px;
+  /* height: 30px; */
+  /* margin-top: 15px; */
   /* height: 100%; */
   /* display: flex; */
   align-items: center;
   margin-left: 115px;
   font-size: 80px;
-  text-shadow: 0px 2px 3px rgb(251,205,0);
+  /* text-shadow: 0px 2px 3px rgb(251,205,0); */
 }
 #seriesInfoDiv {
   width: 100%;
