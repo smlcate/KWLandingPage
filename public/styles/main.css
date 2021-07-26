@@ -10,6 +10,7 @@ a {
   color: white;
 }
 
+
 body {
   display: flex;
   flex-direction: column;
@@ -130,9 +131,15 @@ header a {
   border-top: 1px solid rgb(251,205,0);
   /* border-bottom: 1px solid rgba(35,184,247,0.9);
   border-top: 1px solid rgba(35,184,247,0.9); */
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
   background: #026CC6;
+}
+#seriesInfoTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 30px 15px 30px;
 }
 .seriesBookContainers {
   display: flex;
@@ -189,4 +196,407 @@ footer {
   height: 60px;
   border-top: 1px solid rgb(251,205,0);
   /* border-top: 1px solid rgba(35,184,247,0.9); */
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #seriesInfoTextDiv {
+      padding: 30px 60px 30px 60px;
+      /* background: black; */
+    }
+    #seriesInfoTextDiv p {
+      text-align: center;
+    }
+    .bookInfoCells img {
+      max-height: 350px;
+    }
+    #authorInfoDiv {
+      padding: 0px;
+      font-size: 150%;
+    }
+    #authorInfoSubDiv {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px;
+    }
+    #authorInfoSubDiv img {
+      max-height: 1300px;
+      box-shadow: none;
+      /* width: auto; */
+    }
+    #authorInfoTextContainer {
+      width: 90%;
+      padding: 40px;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* iPhone 6, 6s, 7 and 8 */
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 766px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #seriesInfoTextDiv {
+      padding: 30px 60px 30px 60px;
+      /* background: black; */
+    }
+    #seriesInfoTextDiv p {
+      text-align: center;
+    }
+    .bookInfoCells img {
+      max-height: 350px;
+    }
+    #authorInfoDiv {
+      padding: 0px;
+      font-size: 150%;
+    }
+    #authorInfoSubDiv {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px;
+    }
+    #authorInfoSubDiv img {
+      max-height: 1300px;
+      box-shadow: none;
+      /* width: auto; */
+    }
+    #authorInfoTextContainer {
+      width: 90%;
+      padding: 40px;
+    }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #seriesInfoTextDiv {
+      padding: 30px 60px 30px 60px;
+      /* background: black; */
+    }
+    #seriesInfoTextDiv p {
+      text-align: center;
+    }
+    .bookInfoCells img {
+      max-height: 350px;
+    }
+    #authorInfoDiv {
+      padding: 0px;
+      font-size: 150%;
+    }
+    #authorInfoSubDiv {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px;
+    }
+    #authorInfoSubDiv img {
+      max-height: 1300px;
+      box-shadow: none;
+      /* width: auto; */
+    }
+    #authorInfoTextContainer {
+      width: 90%;
+      padding: 40px;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 834px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1112px)
+  and (max-device-width: 1112px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1366px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #seriesInfoTextDiv {
+      padding: 45px 90px 45px 90px;
+      /* background: black; */
+    }
+    #seriesInfoTextDiv p {
+      text-align: center;
+    }
+    .bookInfoCells img {
+      max-height: 350px;
+    }
+    #authorInfoDiv {
+      padding: 0px;
+      font-size: 150%;
+    }
+    #authorInfoSubDiv {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px;
+    }
+    #authorInfoSubDiv img {
+      max-height: 1300px;
+      box-shadow: none;
+      /* width: auto; */
+    }
+    #authorInfoTextContainer {
+      width: 90%;
+      padding: 40px;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    #seriesInfoTextDiv {
+      padding: 45px 90px 45px 90px;
+      /* background: black; */
+    }
+    #seriesInfoTextDiv p {
+      text-align: center;
+    }
+    .bookInfoCells img {
+      max-height: 350px;
+    }
+    #authorInfoDiv {
+      padding: 0px;
+      font-size: 150%;
+    }
+    #authorInfoSubDiv {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px;
+    }
+    #authorInfoSubDiv img {
+      max-height: 1300px;
+      box-shadow: none;
+      /* width: auto; */
+    }
+    #authorInfoTextContainer {
+      width: 90%;
+      padding: 40px;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+    #seriesInfoTextDiv {
+      padding: 30px 60px 30px 60px;
+      /* background: black; */
+    }
+    #seriesInfoTextDiv p {
+      text-align: center;
+    }
+    .bookInfoCells img {
+      max-height: 350px;
+    }
+    #authorInfoDiv {
+      padding: 0px;
+      font-size: 150%;
+    }
+    #authorInfoSubDiv {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px;
+    }
+    #authorInfoSubDiv img {
+      max-height: 1300px;
+      box-shadow: none;
+      /* width: auto; */
+    }
+    #authorInfoTextContainer {
+      width: 90%;
+      padding: 40px;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+
 }
