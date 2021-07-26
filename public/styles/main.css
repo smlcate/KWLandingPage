@@ -205,6 +205,23 @@ footer {
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
     #seriesInfoTextDiv {
       padding: 30px 60px 30px 60px;
       /* background: black; */
@@ -233,23 +250,9 @@ footer {
       width: 90%;
       padding: 40px;
     }
-}
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
+    #emailListSignUp {
+      font-size: 250%;
+    }
 }
 
 /* iPhone 6, 6s, 7 and 8 */
@@ -286,6 +289,9 @@ footer {
     #authorInfoTextContainer {
       width: 90%;
       padding: 40px;
+    }
+    #cancelEmailListSignUpBtn {
+      font-size: 250%;
     }
 }
 
@@ -332,6 +338,9 @@ footer {
     #authorInfoTextContainer {
       width: 90%;
       padding: 40px;
+    }
+    #emailListSignUp {
+      font-size: 250%;
     }
 }
 
@@ -480,6 +489,9 @@ footer {
       width: 90%;
       padding: 40px;
     }
+    #emailListSignUp {
+      font-size: 250%;
+    }
 }
 
 /* Landscape */
@@ -535,6 +547,9 @@ footer {
       width: 90%;
       padding: 40px;
     }
+    #emailListSignUp {
+      font-size: 375%;
+    }
 }
 
 /* Landscape */
@@ -589,6 +604,9 @@ footer {
     #authorInfoTextContainer {
       width: 90%;
       padding: 40px;
+    }
+    #emailListSignUp {
+      font-size: 500%;
     }
 }
 
