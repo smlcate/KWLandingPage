@@ -74,7 +74,7 @@ header a {
 #welcomeDiv h1 {
   background: #ABD1FF;
   background-image: linear-gradient(0deg, #ABD1FF, #F4F9F8);
-  background-size: 80%;
+  background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
