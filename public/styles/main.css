@@ -26,6 +26,8 @@ header {
   /* box-shadow: 0px 0px 1px 1px rgba(251,205,0, 0.8); */
   order: -1;
   border-bottom: 1px solid rgb(251,205,0);
+  /* box-shadow: 0px 0px 5px 2px rgba(35,184,247,0.9); */
+  /* border-bottom: 1px solid rgba(35,184,247,0.9); */
   background: #030B35;
   display: flex;
   align-items: center;
@@ -103,7 +105,7 @@ header a {
   align-items: center;
 }
 #welcomeDiv h1 {
-  display: flex;
+  display: block;
   font-family: Excluded;
   /* height: 30px; */
   /* margin-top: 15px; */
@@ -111,7 +113,7 @@ header a {
   /* display: flex; */
   text-align: center;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
   margin-left: 15px;
   /* margin-bottom: 0px; */
   font-size: 70px;
@@ -126,6 +128,8 @@ header a {
   font-size: 170%;
   border-bottom: 1px solid rgb(251,205,0);
   border-top: 1px solid rgb(251,205,0);
+  /* border-bottom: 1px solid rgba(35,184,247,0.9);
+  border-top: 1px solid rgba(35,184,247,0.9); */
   padding-top: 15px;
   padding-bottom: 15px;
   background: #026CC6;
@@ -135,6 +139,7 @@ header a {
   justify-content: center;
   align-items: center;
   width: 80%;
+  height: 400px;
 }
 .bookInfoCells {
   padding: 20px;
@@ -145,6 +150,9 @@ header a {
   box-shadow: 0px 0px 5px 2px rgba(35,184,247,0.9);
 border-radius: 2px;
 
+}
+.bookInfoCells img:hover {
+  max-height: 350px;
 }
 
 #authorInfoDiv {
@@ -180,4 +188,5 @@ footer {
   background: hsl(230, 89%, 11%);
   height: 60px;
   border-top: 1px solid rgb(251,205,0);
+  /* border-top: 1px solid rgba(35,184,247,0.9); */
 }
