@@ -162,6 +162,13 @@ border-radius: 2px;
   max-height: 350px;
 }
 
+#preorderClassDiv {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
 #authorInfoDiv {
   display: flex;
   flex-direction: column;
