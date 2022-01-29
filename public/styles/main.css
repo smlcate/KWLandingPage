@@ -150,6 +150,10 @@ header a {
 }
 .bookInfoCells {
   padding: 20px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 .bookInfoCells img {
   max-height: 300px;
