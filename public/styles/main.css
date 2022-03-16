@@ -208,7 +208,7 @@ border-radius: 2px;
   width: 100vw;
   height: 5em;
   font-size: 3em;
-  background-image: url("../images/bookCoverImage.jpeg"), url("../images/book2CoverImage.jpeg"),url("../images/book3CoverImage.jpeg");
+  background-image: url("../images/bookCoverImage.jpeg"), url("../images/book2coverImage.jpeg"),url("../images/book3CoverImage.jpeg");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, center, right;
   background-size: 8em, 8em, 10em;
