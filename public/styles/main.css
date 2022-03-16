@@ -33,6 +33,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 header a {
   padding: 20px;
@@ -143,17 +146,35 @@ header a {
 }
 .seriesBookContainers {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 400px;
+  width: 100vw;
+  /* height: 400px; */
 }
 .bookInfoCells {
-  padding: 20px;
-  height: 400px;
+  /* padding: 20px; */
+  height: 15em;
+  width: 100vw;
+  /* background: red; */
   display: flex;
   justify-content: center;
   align-items:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.bookInfoCells h3 {
+  font-family: Excluded;
+  font-size:3em;
+  background: #ABD1FF;
+  background-image: linear-gradient(0deg, #ABD1FF, #F4F9F8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  filter:drop-shadow(0px 2px 2px #222);
 }
 .bookInfoCells img {
   max-height: 300px;
@@ -165,12 +186,26 @@ border-radius: 2px;
 .bookInfoCells img:hover {
   max-height: 350px;
 }
-
+#bookInfoSeriesCell1 {
+  background-image: url("../images/bookCoverImage.jpeg");
+  background-position: top -45em center;
+  background-size: 70em;
+}
+#bookInfoSeriesCell2 {
+  background-image: url("../images/book2CoverImage.jpeg");
+  background-position: top -65em center;
+  background-size: 70em;
+}
+#bookInfoSeriesCell3 {
+  background-image: url("../images/book3CoverImage.jpeg");
+  background-position: top -72em center;
+  background-size: 70em;
+}
 #preorderClassDiv {
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 #authorInfoDiv {
@@ -246,7 +281,7 @@ footer {
       text-align: center;
     }
     .bookInfoCells img {
-      max-height: 350px;
+      /* max-height: 350px; */
     }
     #authorInfoDiv {
       padding: 0px;
@@ -285,9 +320,9 @@ footer {
     #seriesInfoTextDiv p {
       text-align: center;
     }
-    .bookInfoCells img {
+    /* .bookInfoCells img {
       max-height: 350px;
-    }
+    } */
     #authorInfoDiv {
       padding: 0px;
       font-size: 150%;
@@ -334,9 +369,9 @@ footer {
     #seriesInfoTextDiv p {
       text-align: center;
     }
-    .bookInfoCells img {
+    /* .bookInfoCells img {
       max-height: 350px;
-    }
+    } */
     #authorInfoDiv {
       padding: 0px;
       font-size: 150%;
@@ -484,9 +519,9 @@ footer {
     #seriesInfoTextDiv p {
       text-align: center;
     }
-    .bookInfoCells img {
+    /* .bookInfoCells img {
       max-height: 350px;
-    }
+    } */
     #authorInfoDiv {
       padding: 0px;
       font-size: 150%;
